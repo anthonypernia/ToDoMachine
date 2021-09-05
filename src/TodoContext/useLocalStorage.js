@@ -1,11 +1,5 @@
 import React from "react";
 
-const defaultTodos = [
-  { text: "hacer tareas", completed: false },
-  { text: "comprar pan", completed: false },
-  { text: "comprar agua", completed: false },
-  { text: "comer pan", completed: true },
-];
 
 function useLocalStorage(itemname, initialValue) {
     const [loading, setLoading] = React.useState(true);
